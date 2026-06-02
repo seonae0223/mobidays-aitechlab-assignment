@@ -1,0 +1,82 @@
+{
+  "text": "[노바드림] 캠페인사전정렬회의 액션아이템 5건",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📋 [노바드림] 캠페인사전정렬회의 — 액션아이템 요약"
+      }
+    },
+    {
+      "type": "section",
+      "fields": [
+        {
+          "type": "mrkdwn",
+          "text": "*광고주*\n노바드림"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*회의 일자*\n2026-06-01"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*총 액션아이템*\n5건"
+        },
+        {
+          "type": "mrkdwn",
+          "text": "*담당자 미정*\n2건"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*수아* (2건)\n• 픽셀 보정 및 공유  |  `2026-06-02 오전 (내일 오전)`\n• 캠페인 세트 분리  |  `2026-06-03 오전 (수요일 오전까지)`"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*채린* (1건)\n• 비주얼 카드 순서 및 카피 정리  |  `2026-06-01 저녁 (오늘 저녁)`"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*⚠️ 담당자 미정* (2건)\n• 제안서 완료  |  `2026-06-11 오후 (다음 주 목요일 오후)`\n• 광고주 컨펌 담당 확인  |  `마감 미정`"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🔴 *신뢰도 낮은 항목 1건* — 대시보드에서 검수해주세요."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "자동 생성 by 회의록 AI 파이프라인  |  대시보드에서 상세 내용 확인 가능"
+        }
+      ]
+    }
+  ]
+}
