@@ -205,3 +205,9 @@
 - 내가 수정한 것: [입력 필요]
 - 수정 이유: [입력 필요]
 
+### [README.md] - Gemini API 키 발급 안내 및 Streamlit 실행 명령어 추가
+- Claude Code가 한 것: ①pip → pip3 수정. ②GEMINI_API_KEY 발급 URL(https://aistudio.google.com) 및 무료 발급 안내 주석 추가. ③SLACK_WEBHOOK_URL 선택사항 안내(없으면 samples/slack_payload.json 파일만 저장) 추가. ④대시보드 실행 명령어에 `python3 -m streamlit run dashboard/app.py` 직접 실행 방법 추가. GitHub push 완료(commit: docs)
+- 사용한 프롬프트 요약: "README에 Gemini API 키 발급 안내와 streamlit 실행 명령어 python3 -m streamlit run dashboard/app.py 도 기입해줘."
+- 내가 수정한 것: 수정 없음
+- 수정 이유: 수정 없음
+
