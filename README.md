@@ -51,17 +51,21 @@ make run
 
 ```bash
 # 1. 패키지 설치
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # 2. 환경변수 설정
 cp .env.example .env
-# .env 파일에 GEMINI_API_KEY, SLACK_WEBHOOK_URL 입력
+# .env 파일에 아래 두 값 입력:
+#   GEMINI_API_KEY  → https://aistudio.google.com 에서 무료 발급 (Get API Key)
+#   SLACK_WEBHOOK_URL → 선택사항. 없으면 samples/slack_payload.json 파일만 저장됨
 
 # 3. 전체 파이프라인 실행 (STT → 정제 → 적재 → 추출 → Slack 알림)
 make run
 
-# 4. 대시보드 실행
+# 4. 대시보드 실행 (두 가지 방법 중 택1)
 make dashboard
+# 또는
+python3 -m streamlit run dashboard/app.py
 ```
 
 ### 입력 방식 선택
