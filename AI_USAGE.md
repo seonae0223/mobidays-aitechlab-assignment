@@ -225,15 +225,6 @@
 - 내가 수정한 것: JSON 샘플 생성에서 그치지 않고 실제 Webhook URL 제공하여 실제 전송까지 구현 결정 (판단 사례 ⑦ 참고)
 - 수정 이유: 동작하는 시스템으로 완성하고 싶었음
 
-### [기획안_ver02.md] - 기획안 업데이트
-- Claude Code가 한 것: 구현 과정의 변경 사항을 반영하여 기획안_ver02.md 신규 생성
-- 내가 수정한 것: 수정 없음
-- 수정 이유: -
-
-### [README.md] - 실행 가이드 보완
-- Claude Code가 한 것: Gemini API 키 발급 URL, Streamlit 직접 실행 명령어 추가
-- 내가 수정한 것: `python3 -m streamlit run dashboard/app.py` 명령어 직접 제공 (실제 실행 환경에서 확인한 명령어)
-- 수정 이유: 실제 환경에서 `make dashboard`가 아닌 직접 명령어로 실행했으므로 평가자 재현을 위해 추가
 
 ### [pipeline/extractor.py] - 프롬프트 3가지 개선 + 청크 간 컨텍스트 전달 (판단 사례 ⑨)
 - Claude Code가 한 것: ①_SYSTEM_PROMPT에 추출 기준 명시(확정 약속만 추출, 아젠다·예측 제외), 담당자 추론 규칙("요청했는데"→발화자), 부정 few-shot(아젠다 발화→[]) 추가. ②_USER_PROMPT_TEMPLATE에 {previous_actions_section} 추가. ③_build_previous_actions_section() 헬퍼 신규 생성. ④_call_gemini_api/_call_llm_with_retry에 previous_actions 파라미터 추가. ⑤extract_actions()에서 all_actions 누적 전달. 모델: gemini-3.1-flash-lite
