@@ -16,8 +16,8 @@ def _day_ko(date_str: str) -> str:
 
 load_dotenv()
 
-# 모델 변경 이력: gemini-flash-latest → gemini-2.5-flash → gemini-2.5-flash-lite → gemini-flash-lite-latest → gemini-3.1-flash-lite
-MODEL = "gemini-3.1-flash-lite"
+# 모델 변경 이력: gemini-flash-latest → gemini-2.5-flash → gemini-2.5-flash-lite → gemini-flash-lite-latest → gemini-3.1-flash-lite → gemini-3.1-flash-lite-preview
+MODEL = "gemini-3.1-flash-lite-preview"
 
 # PRD 5.5 확정값: confidence 계산 전용 흐릿한 표현 목록
 # cleaner.py의 VAGUE_PATTERNS(사용자 확장판)와 별도 관리
